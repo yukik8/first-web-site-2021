@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <title>Yuki's Web</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+  </style>
+  <style>
+    body {
+      color: #696969;
+    }
+
+    a:link {
+      color: #8bdce8;
+    }
+
+    a:visited {
+      color: #ffcc00;
+    }
+
+    a:active {
+      color: #ff0000;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="jquery.bxslider.min.js"></script>
+  <link href="jquery.bxslider.css" rel="stylesheet" />
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.slider1').bxSlider({
+        minSlides: 2,
+        maxSlides: 5,
+        slideWidth: 400,
+        slideMargin: 0,
+        captions: true,
+        infineteLoop: true,
+        pager: false,
+        controls: false,
+        auto: true,
+        ticker: true,
+        speed: 20000,
+        useCSS: false,
+      });
+    });
+  </script>
+
+
+</head>
+
+<body>
+
+  <div class="wrap-video">
+    <div class="text">
+      <p>Welcome to my page!</p>
+      <p class="headline">Kikuchi Yuki's Website</p>
+    </div>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="mymagazine.pdf" target="_blank">My magazine</li>
+        <li><a href="profile.htm" target="_blank">My profile</li>
+        <li><a href="2h15kikuchi.mp4" target="_blank">My movie</li>
+        <li><a href="myposter.pdf" target="_blank">My poster</li>
+        <li><a href="https://colab.research.google.com/drive/1M8HZPySrrSEk-xicMmOUmCoObBellSyY?usp=sharing"
+            target="_blank">My Python work</li>
+      </ul>
+    </nav>
+
+    <video id="bg-video" src="schaikei.mov" muted autoplay></video>
+  </div>
+
+  <div class="sample_box5">
+    <a>GALLERY</a>
+  </div>
+
+  <div class="sample_box6">
+
+    <a>I play soccer and tennis.<br>I like both of them.</a>
+    <ul class="slider1">
+      <li><img src="sc1.jpeg" title="junior high school's soccer" /></li>
+      <li><img src="sc2.jpg" title="high school's soccer" /></li>
+      <li><img src="sc3.jpeg" title="in the new sports hall" /></li>
+      <li><img src="sc4.jpeg" title="my childhood" /></li>
+      <li><img src="ten1.jpeg" title="my tennis club" /></li>
+      <li><img src="ten2.jpg" title="the prefectural tournament" /></li>
+      <li><img src="ten3.jpg" title="the first grade competition" /></li>
+      <li><img src="ten4.jpg" title="practice" /></li>
+      <li><img src="ten5.jpg" title="at the sports festival" /></li>
+      <li><img src="vll1.jpg" title="at the ball sports tournament" /></li>
+    </ul>
+    <a>Why don't you check my works?<br><br>
+      <li><a href="mymagazine.pdf" target="_blank">My magazine</li>
+      <nobr><a>The article about my future self.</a>
+        <li><a href="profile.htm" target="_blank">My profile</li>
+        <nobr><a>Many pictures of me.</a>
+          <li><a href="2h15kikuchi.mp4" target="_blank">My recommended place</li>
+          <nobr><a>I made this video about New Caledonia using only PowerPoint.</a>
+            <li><a href="myposter.pdf" target="_blank">My graduation thesis</li>
+            <nobr><a>The research regarding "sleep."</a>
+              <li><a href="https://colab.research.google.com/drive/1M8HZPySrrSEk-xicMmOUmCoObBellSyY?usp=sharing"
+                  target="_blank">My Python work</li>
+              <nobr><a>My first work at Python.</a>
+  </div>
+
+  <footer>
+    <div class="wrapper">
+      <a><small>&copy; 2021 Yukik</small></a>
+    </div>
+  </footer>
+</body>
+
+</html>

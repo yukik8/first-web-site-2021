@@ -1,0 +1,10 @@
+Read me
+
+・PHOTOSHOP VIP
+　(http://photoshopvip.net/111009)
+　2021/02/20アクセス
+　ボタン作製の参考にした。
+
+・HTML＆CSSとWebデザイン入門講座
+　Mana著, SBクリエイティブ株式会社
+　HTMLとCSSの書き方の基本を学んだ。

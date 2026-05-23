@@ -1,0 +1,39 @@
+
+<title>Kikuchi Web</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="jquery.bxslider.min.js"></script>
+<link href="jquery.bxslider.css" rel="stylesheet" />
+<script type="text/javascript">
+  $(document).ready(function(){    
+$('.slider1').bxSlider({
+ minSlides: 2,
+  maxSlides: 5,
+  slideWidth: 400,
+  slideMargin: 5,
+  captions: true,
+  infineteLoop: true,
+  pager: false,
+  controls: false,
+  auto: true,
+  speed: 20000,
+  useCSS: false,
+});
+  });
+</script>
+
+
+
+<h1>Welcome to my page</h1>
+ <ul class="slider">
+   <li><img src="image/a1.jpg" title="" /></li>
+   <li><img src="image/a2.jpg" title="" /></li>
+   <li><img src="image/a3.jpg" title=""/></li>
+   <li><img src="image/a4.jpg" title="" /></li>
+   <li><img src="image/a5.jpg" title="" /></li>
+   <li><img src="image/a6.jpg" title="" /></li>
+   <li><img src="image/a7.jpg" title="" /></li>
+   <li><img src="image/a8.jpg" title=""/></li>
+   <li><img src="image/a9.jpg" title="" /></li>
+   <li><img src="image/a10.jpg" title="" /></li>
+</ul>
+<p>Welcome to my page</p>
